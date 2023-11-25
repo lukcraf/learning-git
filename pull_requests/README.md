@@ -14,6 +14,12 @@ git switch dev && git branch -D pr1 && git checkout -b pr1/pr-dev-uat-prod-tag-p
 ```
 code...
 ```bash
-git add . && git commit -m "PR1/sample pr to tagging release"
+git add . && git commit -m "PR1/sample pr to tagging release" && git push --set-upstream origin pr1/pr-dev-uat-prod-tag-pattern
 ```
 
+## PR #2
+Would the code below change the default branch to make pr be based on dev?
+Testing:
+```git
+git branch -M dev
+```
